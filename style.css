@@ -22,6 +22,25 @@ nav{
     padding: 2vh 1vw;
     color: #fff;
 }
+.nav-country :hover{
+    cursor: pointer;
+}
+.nav-lang :hover{
+    cursor: pointer;
+    background: #6363637c;
+}
+.nav-bottom :hover{
+    cursor: pointer;
+}
+.nav-acc-list{
+    cursor: pointer;
+}
+.nav-return-orders{
+    cursor: pointer;
+}
+.cart{
+    cursor: pointer;
+}
 .nav-country{
     display: flex;
     align-items: end;
@@ -230,9 +249,7 @@ nav{
     text-align: center;
     margin: 1rem;
 }
-.layer2 span{
-    padding: 1w;
-}
+
 .upanddown-btn{
     cursor: pointer;
     background-color: #00000000;
@@ -241,9 +258,9 @@ nav{
     text-align: center;
 }
 .layer2 .logo-foot{
-    width: 8%;
-    height: 8%;
-    margin: 2vh 10vw 0 0;
+    width: 6%;
+    height: 6%;
+    margin: 2vh 6vw 0 0;
 }
 .layer2 :hover{
     cursor: pointer;
